@@ -1,0 +1,68 @@
+
+.annonces-list {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    display: contents;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+
+}
+
+.annonce {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+
+}
+
+.annonce-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.annonce-content {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #3490dc;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.annonce-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.annonce-footer a,
+.annonce-footer button {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.annonce-footer .btn-primary {
+    background-color: #1CAC78;
+}
+
+.annonce-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+.annonce-footer .btn-danger {
+    background-color: #fd5c63;
+}
+
+/* Ajoutez d'autres styles au besoin */

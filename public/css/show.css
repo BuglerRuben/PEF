@@ -1,0 +1,41 @@
+/* public/css/styles.css */
+
+.annonce-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.annonce-details h1 {
+    color: #008080;
+}
+
+.annonce-details p {
+    color: #333;
+    margin-bottom: 15px;
+    
+}
+
+.retour-btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.retour-btn:hover {
+    background-color: #008080;
+}
+.annonce-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Bord arrondi pour l'image */
+}
